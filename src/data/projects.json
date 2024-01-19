@@ -2,10 +2,10 @@
   {
     "title": " Portfolio website using React",
     "imageSrc": "projects/project.png",
-    "description": "My Portfolio website Code. ",
+    "description": "My Portfolio using react js. ",
     "skills": ["HTML", "JAVASCRIPT", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/Mursleen-2004/My-Portfolio"
+    "source": "https://github.com/Mursleen-2004/portfolio-with-react"
   },
   {
     "title": "A Best Game",
