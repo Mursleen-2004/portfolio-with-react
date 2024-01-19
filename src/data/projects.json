@@ -1,0 +1,27 @@
+[
+  {
+    "title": " Portfolio website using React",
+    "imageSrc": "projects/project.png",
+    "description": "My Portfolio website Code. ",
+    "skills": ["HTML", "JAVASCRIPT", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Mursleen-2004/My-Portfolio"
+  },
+  {
+    "title": "A Best Game",
+    "imageSrc": "projects/project.png",
+    "description": " very funny game , but it was truly time killing..",
+    "skills": ["HTML", "CSS", "JAVASCRIPT"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Mursleen-2004/My-Game"
+  },
+  {
+    "title": "Real-Estate website",
+    "imageSrc": "projects/project.png",
+    "description": "A full-fledge Real-estate website where we buy and purchase lands.",
+    "skills": ["REACT","NODE","EXPRESS","MONGO"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Mursleen-2004/Real-estate"
+  }
+  
+]
