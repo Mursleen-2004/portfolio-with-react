@@ -30,6 +30,7 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+ 
 }
 
 .link {
@@ -43,7 +44,7 @@
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 830px) {
@@ -56,9 +57,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .links {
     align-items: center;
+   
+  }
+  .link a{
+  font-weight: 500;
+  font-size: 20px;    
   }
 }

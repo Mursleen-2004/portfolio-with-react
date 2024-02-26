@@ -11,7 +11,7 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
@@ -26,12 +26,15 @@
   gap: 47px;
   list-style: none;
 }
-
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
 }
+.menuBtn {
+  visibility: hidden;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {
@@ -52,6 +55,9 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+   visibility: visible;
+    position: absolute;
+    left: 1px;
   }
 
   .menuItems {
