@@ -7,24 +7,33 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
+        <h2 id="Head">Contact</h2>
         <p>Feel free connect me!</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="musabukhari20@gmail.com">musabukhari20@gmail.com</a>
+
+          <a href="musabukhari20@gmail.com">
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email " />
+          </a>
         </li>
         <li className={styles.link}>
+
+          <a href="https://www.linkedin.com/in/mursleen-bukhari-322a86259/">
+
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
+            alt="LinkedIn"
           />
-          <a href="https://www.linkedin.com/in/mursleen-bukhari-322a86259/">linkedin.com/Mursleen</a>
+          </a>
+        
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Mursleen-2004">github.com/Mursleen</a>
+          <a href="https://github.com/Mursleen-2004"  >
+            <img src={getImageUrl("contact/githubIcon.png")}
+              alt="Github" />
+          </a>
+
         </li>
       </ul>
     </footer>
